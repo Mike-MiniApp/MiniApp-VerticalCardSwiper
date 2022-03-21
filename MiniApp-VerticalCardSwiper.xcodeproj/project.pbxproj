@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8599B64CBDA51D86275810BC /* Pods_MiniApp_VerticalCardSwiper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DF9B9FFF87A7582DF634DE /* Pods_MiniApp_VerticalCardSwiper.framework */; };
+		9532CAD127E8118300E81865 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532CAD027E8118300E81865 /* AppDelegate.swift */; };
+		9532CAD327E8118300E81865 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532CAD227E8118300E81865 /* SceneDelegate.swift */; };
+		9532CAD527E8118300E81865 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532CAD427E8118300E81865 /* ViewController.swift */; };
+		9532CAD827E8118300E81865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9532CAD627E8118300E81865 /* Main.storyboard */; };
+		9532CADA27E8118400E81865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9532CAD927E8118400E81865 /* Assets.xcassets */; };
+		9532CADD27E8118400E81865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9532CADB27E8118400E81865 /* LaunchScreen.storyboard */; };
+		9532CAE627E8147600E81865 /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532CAE427E8147600E81865 /* CardViewCell.swift */; };
+		9532CAE727E8147600E81865 /* CardViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9532CAE527E8147600E81865 /* CardViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38DF9B9FFF87A7582DF634DE /* Pods_MiniApp_VerticalCardSwiper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniApp_VerticalCardSwiper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0B7D011B35CBCD4F7A608E /* Pods-MiniApp-VerticalCardSwiper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp-VerticalCardSwiper.debug.xcconfig"; path = "Target Support Files/Pods-MiniApp-VerticalCardSwiper/Pods-MiniApp-VerticalCardSwiper.debug.xcconfig"; sourceTree = "<group>"; };
+		4EE79C868C02EC2474A950C4 /* Pods-MiniApp-VerticalCardSwiper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp-VerticalCardSwiper.release.xcconfig"; path = "Target Support Files/Pods-MiniApp-VerticalCardSwiper/Pods-MiniApp-VerticalCardSwiper.release.xcconfig"; sourceTree = "<group>"; };
+		9532CACD27E8118300E81865 /* MiniApp-VerticalCardSwiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniApp-VerticalCardSwiper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9532CAD027E8118300E81865 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9532CAD227E8118300E81865 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9532CAD427E8118300E81865 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9532CAD727E8118300E81865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9532CAD927E8118400E81865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9532CADC27E8118400E81865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9532CADE27E8118400E81865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9532CAE427E8147600E81865 /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
+		9532CAE527E8147600E81865 /* CardViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9532CACA27E8118300E81865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8599B64CBDA51D86275810BC /* Pods_MiniApp_VerticalCardSwiper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9532CAC427E8118300E81865 = {
+			isa = PBXGroup;
+			children = (
+				9532CACF27E8118300E81865 /* MiniApp-VerticalCardSwiper */,
+				9532CACE27E8118300E81865 /* Products */,
+				DBD7BD9E12BE4981CF67FC56 /* Pods */,
+				D3F66DC2730D7DEC12EBC038 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9532CACE27E8118300E81865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9532CACD27E8118300E81865 /* MiniApp-VerticalCardSwiper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9532CACF27E8118300E81865 /* MiniApp-VerticalCardSwiper */ = {
+			isa = PBXGroup;
+			children = (
+				9532CAD027E8118300E81865 /* AppDelegate.swift */,
+				9532CAD227E8118300E81865 /* SceneDelegate.swift */,
+				9532CAD427E8118300E81865 /* ViewController.swift */,
+				9532CAD627E8118300E81865 /* Main.storyboard */,
+				9532CAD927E8118400E81865 /* Assets.xcassets */,
+				9532CADB27E8118400E81865 /* LaunchScreen.storyboard */,
+				9532CADE27E8118400E81865 /* Info.plist */,
+				9532CAE427E8147600E81865 /* CardViewCell.swift */,
+				9532CAE527E8147600E81865 /* CardViewCell.xib */,
+			);
+			path = "MiniApp-VerticalCardSwiper";
+			sourceTree = "<group>";
+		};
+		D3F66DC2730D7DEC12EBC038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38DF9B9FFF87A7582DF634DE /* Pods_MiniApp_VerticalCardSwiper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBD7BD9E12BE4981CF67FC56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D0B7D011B35CBCD4F7A608E /* Pods-MiniApp-VerticalCardSwiper.debug.xcconfig */,
+				4EE79C868C02EC2474A950C4 /* Pods-MiniApp-VerticalCardSwiper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9532CACC27E8118300E81865 /* MiniApp-VerticalCardSwiper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9532CAE127E8118400E81865 /* Build configuration list for PBXNativeTarget "MiniApp-VerticalCardSwiper" */;
+			buildPhases = (
+				B8423EB50DD508FBB6287D9C /* [CP] Check Pods Manifest.lock */,
+				9532CAC927E8118300E81865 /* Sources */,
+				9532CACA27E8118300E81865 /* Frameworks */,
+				9532CACB27E8118300E81865 /* Resources */,
+				4E111C1C0177AA3DC6A0343C /* [CP] Embed Pods Frameworks */,
+				95B7409F27E83AA00059DA76 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MiniApp-VerticalCardSwiper";
+			productName = "MiniApp-VerticalCardSwiper";
+			productReference = 9532CACD27E8118300E81865 /* MiniApp-VerticalCardSwiper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9532CAC527E8118300E81865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9532CACC27E8118300E81865 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 9532CAC827E8118300E81865 /* Build configuration list for PBXProject "MiniApp-VerticalCardSwiper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9532CAC427E8118300E81865;
+			productRefGroup = 9532CACE27E8118300E81865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9532CACC27E8118300E81865 /* MiniApp-VerticalCardSwiper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9532CACB27E8118300E81865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9532CADD27E8118400E81865 /* LaunchScreen.storyboard in Resources */,
+				9532CADA27E8118400E81865 /* Assets.xcassets in Resources */,
+				9532CAE727E8147600E81865 /* CardViewCell.xib in Resources */,
+				9532CAD827E8118300E81865 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E111C1C0177AA3DC6A0343C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniApp-VerticalCardSwiper/Pods-MiniApp-VerticalCardSwiper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniApp-VerticalCardSwiper/Pods-MiniApp-VerticalCardSwiper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniApp-VerticalCardSwiper/Pods-MiniApp-VerticalCardSwiper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95B7409F27E83AA00059DA76 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+		B8423EB50DD508FBB6287D9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniApp-VerticalCardSwiper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9532CAC927E8118300E81865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9532CAD527E8118300E81865 /* ViewController.swift in Sources */,
+				9532CAD127E8118300E81865 /* AppDelegate.swift in Sources */,
+				9532CAE627E8147600E81865 /* CardViewCell.swift in Sources */,
+				9532CAD327E8118300E81865 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9532CAD627E8118300E81865 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9532CAD727E8118300E81865 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9532CADB27E8118400E81865 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9532CADC27E8118400E81865 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9532CADF27E8118400E81865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9532CAE027E8118400E81865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9532CAE227E8118400E81865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0B7D011B35CBCD4F7A608E /* Pods-MiniApp-VerticalCardSwiper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X9S244452;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MiniApp-VerticalCardSwiper/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkondo.MiniApp-VerticalCardSwiper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9532CAE327E8118400E81865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE79C868C02EC2474A950C4 /* Pods-MiniApp-VerticalCardSwiper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X9S244452;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MiniApp-VerticalCardSwiper/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkondo.MiniApp-VerticalCardSwiper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9532CAC827E8118300E81865 /* Build configuration list for PBXProject "MiniApp-VerticalCardSwiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9532CADF27E8118400E81865 /* Debug */,
+				9532CAE027E8118400E81865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9532CAE127E8118400E81865 /* Build configuration list for PBXNativeTarget "MiniApp-VerticalCardSwiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9532CAE227E8118400E81865 /* Debug */,
+				9532CAE327E8118400E81865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9532CAC527E8118300E81865 /* Project object */;
+}
