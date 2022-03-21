@@ -32,7 +32,7 @@ class CardViewCell: CardCell {
         let randomRed: CGFloat = CGFloat(arc4random()) / CGFloat(UInt32.max)
         let randomGreen: CGFloat = CGFloat(arc4random()) / CGFloat(UInt32.max)
         let randomBlue: CGFloat = CGFloat(arc4random()) / CGFloat(UInt32.max)
-        self.backgroundColor = UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 0.3)
+        self.backgroundColor = UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1.0)
     }
     
 }
